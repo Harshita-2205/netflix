@@ -25,14 +25,14 @@ function App() {
 				<header>
 					<Navs />
 				</header>
-				<div className="mai-body-img">
-					<div className="body-img">
+			
+					<div className="body-img overflow-hidden">
 						<img
+						className=" h-auto w-full relative overflow-hidden"
 							src="https://assets.nflxext.com/ffe/siteui/vlv3/530fc327-2ddb-4038-a3f0-2da2d9ccede1/9c547c8a-e707-4bdb-bdbc-843f134dd2a6/IN-en-20230619-popsignuptwoweeks-perspective_alpha_website_large.jpg"
 							alt=""
 						/>
 					</div>
-				</div>
 				<Home />
 			</div>
 			<div className="sec-cnge-line"></div>

@@ -3,6 +3,7 @@ import './style.css';
 
 
 const Home = () => {
+
    return(
     
       
@@ -12,7 +13,8 @@ const Home = () => {
          <h3>Watch anywhere. Cancel anytime</h3>
          <p className=" text-2xl">Ready to watch? Enter your email to create or restart your membership. </p>
          <div className="home-text-input">
-         <input type="email" defaultValue="Email address" />
+         <input type="email" da defaultValue="Email address" />
+
          <button type="submit" >Get Started</button>
          </div>
 
